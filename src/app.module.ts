@@ -14,11 +14,11 @@ import { RespostaModule } from './resposta/resposta.module';
     imports: [
         TypeOrmModule.forRoot({
             type: 'postgres',
-            host: 'localhost',
+            host: 'aws-0-sa-east-1.pooler.supabase.com',
             port: 5432,
-            username: 'postgres',
-            password: 'thesims3',
-            database: 'Greenfive',
+            username: 'postgres.drywazrzkinkwxrekmvs',
+            password: 'greenfivepaulo@2024',
+            database: 'postgres',
             // schema: 'testePratico', // Especifica o nome do schema
             entities: [Usuarios, questionario, Pergunta, Resposta],
             synchronize: true,
