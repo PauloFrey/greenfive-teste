@@ -9,6 +9,7 @@ import { QuestionarioModule } from './questionario/questionario.module';
 import { Pergunta } from './perguntas/model/perguntas.entity';
 import { Resposta } from './resposta/model/resposta.entity';
 import { RespostaModule } from './resposta/resposta.module';
+import { PerguntaModule } from './perguntas/perguntas.module';
 
 @Module({
     imports: [
@@ -27,6 +28,7 @@ import { RespostaModule } from './resposta/resposta.module';
         UserModule,
         QuestionarioModule,
         RespostaModule,
+        PerguntaModule,
     ],
     controllers: [AppController],
     providers: [AppService],
